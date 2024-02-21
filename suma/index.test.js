@@ -37,7 +37,7 @@ describe('Sum Function test suite', () => {
     const result = sum(a, b);
 
     //ARRANGE
-    expect(result).toBeNull();
+    expect(result).toBe(0);
   })
   it('should return string concatened when I sent number and string', () => {
 
